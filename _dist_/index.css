@@ -1,0 +1,27 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+.muy-grande {
+    font-size: 2rem;
+    color: rebeccapurple
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    
+}
+
+article {
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgb(235, 234, 234);
+    margin: 16px;
+    width: 200px;
+    padding: 8px;
+}
